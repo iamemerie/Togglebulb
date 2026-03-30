@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Togglebulb</title>
+  </head>
+  <style>
+    .container {
+      text-align: center;
+      margin-top: 150px;
+    }
+
+    #toggleBtn {
+      background-color: gray;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #toggleBtn:hover {
+      transform: translate(-5px, 5px);
+    }
+
+    button {
+      transition: transform 0.3s ease;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <img id="bulb" src="/Images/Off.png" width="200" alt="lightoff" />
+      <br />
+
+      <!-- <button id="onBTN">On</button>
+      <button id="offBTN">Off</button> -->
+      <button id="toggleBtn">On</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
