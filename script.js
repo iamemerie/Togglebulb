@@ -1,4 +1,4 @@
-const bULB = document.getElementById("bulb");
+//const bULB = document.getElementById("bulb");
 // const onBtn = document.getElementById("onBTN");
 // const offBtn = document.getElementById("offBTN");
 
@@ -19,11 +19,11 @@ let isOn = false;
 
 btn.addEventListener("click", () => {
   if (isOn) {
-    bulb.src = "/Images/Off.png";
+    bulb.src = "Images/On.png";
     bulb.style.width = "200px";
     btn.textContent = "On";
   } else {
-    bulb.src = "/Images/On.png";
+    bulb.src = "Images/Off.png";
     bulb.style.width = "200px";
     btn.textContent = "Off";
   }
